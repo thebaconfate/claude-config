@@ -1,0 +1,40 @@
+# ── Secrets & private data: NEVER commit ─────────────────────────
+# OAuth/API login tokens
+.credentials.json
+# every prompt you've typed
+history.jsonl
+# full session transcripts (+ per-project memory)
+projects/
+# live session state
+sessions/
+# captured environment per session
+session-env/
+# snapshots of your shell env (can contain exported secrets)
+shell-snapshots/
+# copies of files Claude edited, from any repo
+file-history/
+# anything pasted into the prompt
+paste-cache/
+# backups of ~/.claude.json (account + project state)
+backups/
+# MCP auth state
+mcp-needs-auth-cache.json
+# machine-local overrides, uncommitted by convention
+settings.local.json
+
+# ── Machine-local / regenerated state ────────────────────────────
+cache/
+downloads/
+# reinstalled from enabledPlugins in settings.json
+plugins/
+todos/
+statsig/
+telemetry/
+debug/
+ide/
+# account-synced Anthropic skills (re-downloaded automatically; path contains account IDs)
+skills/synced/
+.last-cleanup
+.last-update-result.json
+*.lock
+*.log
