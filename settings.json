@@ -1,14 +1,19 @@
 {
-  "enabledPlugins": {
-    "superpowers@anthropic-plugin-directory": true,
-    "railway@anthropic-plugin-directory": false
-  },
-  "modelSettings": {
-    "claude-opus-5-5": {
-      "effortLevel": "high"
+    "enabledPlugins": {
+        "superpowers@anthropic-plugin-directory": true,
+        "railway@anthropic-plugin-directory": false
+    },
+    "modelSettings": {
+        "claude-opus-5-5": {
+            "effortLevel": "high"
+        }
+    },
+    "theme": "dark",
+    "editorMode": "vim",
+    "agentPushNotifEnabled": true,
+    "tui": "default",
+    "attribution": {
+        "commit": "",
+        "pr": ""
     }
-  },
-  "theme": "dark",
-  "editorMode": "vim",
-  "agentPushNotifEnabled": true
 }
