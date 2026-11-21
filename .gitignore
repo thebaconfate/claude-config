@@ -5,6 +5,10 @@
 history.jsonl
 # full session transcripts (+ per-project memory)
 projects/
+# background-session daemon state (includes control.key, a secret)
+daemon/
+# background job state and transcripts
+jobs/
 # live session state
 sessions/
 # captured environment per session
